@@ -19,8 +19,8 @@ class CreateCharityTable extends Migration
             $table->integer('owner_id')->nullable();
             $table->string('description');
             $table->string('location');
-            $table->timestamp('start_date');
-            $table->timestamp('end_date')->default(0);
+            $table->timestamp('start_date')->nullable();
+            $table->timestamp('end_date')->nullable();
             $table->string('currency')->default('USD');
             $table->decimal('goal',9,3);
             $table->decimal('pledged',9,3);
