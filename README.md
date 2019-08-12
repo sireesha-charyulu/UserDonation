@@ -4,7 +4,7 @@ This project creates a sample user donation application.
 
 The website is:
 
-Donatemagic-env.zznusq9pzp.us-east-2.elasticbeanstalk.com
+http://donatemagichello.us-east-2.elasticbeanstalk.com/
 
 Scope of the project:
 
