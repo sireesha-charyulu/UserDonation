@@ -4,7 +4,7 @@ This project creates a sample user donation application.
 
 The website is:
 
-http://donatemagichello.us-east-2.elasticbeanstalk.com/
+http://phplaravel-311311-953251.cloudwaysapps.com/
 
 Scope of the project:
 
