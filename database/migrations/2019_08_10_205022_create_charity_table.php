@@ -20,7 +20,7 @@ class CreateCharityTable extends Migration
             $table->string('description');
             $table->string('location');
             $table->timestamp('start_date');
-            $table->timestamp('end_date')->default(\DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('end_date');
             $table->string('currency')->default('USD');
             $table->decimal('goal',9,3);
             $table->decimal('pledged',9,3);
